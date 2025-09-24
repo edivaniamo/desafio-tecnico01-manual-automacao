@@ -1,0 +1,23 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+~$*.*
+*.swp
+*.swo
+
+# Arquivos do Excel temporários
+~$*.xlsx
+~$*.xls
+
+# IDEs e editores
+.vscode/
+.idea/
+*.iml
