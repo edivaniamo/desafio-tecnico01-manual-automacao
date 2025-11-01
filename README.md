@@ -1,54 +1,38 @@
-# Desafio Técnico 01 - Evolução do Manual para Automação
+# Desafio Técnico 01 - Manual para Automação
 
-Este repositório contém um conjunto de **cenários de testes manuais** documentados em Excel, servindo como base para futura automação.
-
-
-O foco é demonstrar a estruturação dos testes em formato claro e rastreável.
+Repositório com **cenários de testes manuais** em Excel, estruturados em Gherkin, servindo como base para futura automação.
 
 ---
 
 ## 📋 Conteúdo
-- **Plano de Testes (Excel):** Contém os cenários de teste escritos em formato estruturado (baseado em Gherkin).  
-- **Metadados:** Tipo de teste, Severidade, Prioridade, Categoria, Status, Pré-condições e objetivos.
+- **Plano de Testes:** Cenários claros e rastreáveis.  
+- **Metadados:** Tipo, Severidade, Prioridade, Categoria e Pré-condições.
 
 ---
 
 ## 🎯 Objetivo
-- Documentar cenários manuais de forma clara e organizada;
-- Utilizar Gherkin como linguagem padrão para facilitar automação;
-- Criar rastreabilidade entre requisitos, prioridades e severidade;
-- Preparar base sólida para evolução em frameworks de automação (ex: Selenium, Cypress, RestSharp).
+- Documentar cenários manuais de forma organizada.  
+- Facilitar futura automação (Selenium, Cypress, RestSharp).  
+- Criar rastreabilidade entre requisitos e prioridades.
 
 ---
 
-## 📝 Exemplo de Cenário
-
-**Cenário 1:**  
-- **Objetivo:** Validar tela inicial  
-- **URL:** [https://practice.automationtesting.in/](https://practice.automationtesting.in/)  
-- **Cenário (Gherkin):**  
-  - **DADO** que estou na "Tela inicial"  
-  - **QUANDO** acessar o site  
-  - **ENTÃO** deve exibir a "Home" com menus na parte superior da tela  
-
----
-
-## 📂 Estrutura do Repositório
-
-
-
+## 📝 Exemplo
+```gherkin
+DADO que estou na "Tela inicial"
+QUANDO acessar o site
+ENTÃO deve exibir a "Home" com menus na parte superior
+```
 
 ---
 
 ## 🚀 Próximos Passos
-- Adicionar mais cenários de teste  
+- Adicionar mais cenários  
 - Mapear cobertura de requisitos  
-- Evoluir para automação dos cenários  
+- Evoluir para automação
 
 ---
 
-## 🛠️ Guia Rápido
-
-### 🔹 Como clonar o repositório
+## 🛠️ Como clonar
 ```bash
 git clone https://github.com/seu-usuario/desafio-tecnico01-manual-automacao.git
