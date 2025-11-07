@@ -37,4 +37,4 @@ ENTÃO deve exibir a "Home" com menus na parte superior
 
 ## 🛠️ Como clonar
 ```bash
-git clone https://github.com/seu-usuario/desafio-tecnico01-manual-automacao.git
+git clone [https://github.com/seu-usuario/desafio-tecnico01-manual-automacao.git](https://github.com/edivaniamo/desafio-tecnico01-manual-automacao.git)
