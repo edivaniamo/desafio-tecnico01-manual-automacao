@@ -5,6 +5,8 @@ Repositório com **cenários de testes manuais** em Excel, estruturados em Gherk
 ---
 
 ## 📋 Conteúdo
+- **Epicos:** visão macro dos objetivos.
+- **Histórias:** detalhamento com critérios de aceite.
 - **Plano de Testes:** Cenários claros e rastreáveis.  
 - **Metadados:** Tipo, Severidade, Prioridade, Categoria e Pré-condições.
 
